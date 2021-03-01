@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewBag.Title = "Home";
+}
+
+<section class="Login-page">
+    <div class="d-flex flex-lg-row  flex-md-column  flex-sm-column flex-xs-column m-10 justify-content-center align-content-center">
+        <div class="col justify-content-center align-content-center">
+            <div class="p-1 text-center">
+                <img class="Logo-mvc" src="~/Content/Assets/mvclogo.svg" />
+            </div>
+        </div>
+
+        <div class="login col bg-light justify-content-center align-content-center rounded-lg p-5">
+
+
+            <!--Forms for Log In -->
+            <form>
+                <h1 class="login-title">Log-in your MVC Account</h1>
+
+                <!--New User Link-->
+                <p>New User? <span class="Login-link">@Html.ActionLink("Sign-Up", "Index", "SignUp")</span></p>
+                <hr />
+
+                <div class="input-group input-group-sm mb-3">
+                    <input type="text" placeholder="Student ID" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                </div>
+
+                <div class="input-group input-group-sm mb-3">
+                    <input type="password" placeholder="Password or Temporary PIN" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <a class="Login-link" href="#"><p>@Html.ActionLink("Forgot password?", "Index", "SignUp")</p></a>
+                <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+                <br />
+                <div class="p-1 text-center"><button type="button" class="btn btn-primary text-center mr-4 mb-4">Log In<i class="fas text-center ml-3 fa-sign-in-alt"></i></button></div>
+            </form>
+            <div class="p-1 text-center">
+                <button data-toggle="modal" data-target="#Instructions-modal" class="btn btn-primary mr-4 mb-4">Instructions<i class="fas text-center ml-3 fa-angle-up"></i></button>
+            </div>
+
+            <div class="modal fade in" id="Instructions-modal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Instructions</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p class="text-justify">If you have used this system before, you can log-in with your ID number and the password you have previously created for this portal. If you are a new user, please enter your MVC ID Number check the reCaptcha box/Challenge and click on [New User / Forgot Password]. The system will walk you through the new user/forgot password process afterwards.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-Exit" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,131 @@
+﻿
+/* Styling for The Login Page   */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+    background-image: url(/Content/Assets/valley2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar {
+    padding: 15px;
+    -webkit-box-shadow: -2px 9px 43px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 9px 43px -6px rgba(0,0,0,0.75);
+    box-shadow: -2px 9px 43px -6px rgba(0,0,0,0.75);
+}
+
+.brand-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.Login-page{
+    padding-top: 90px;
+}
+
+.Logo-mvc{
+    padding-top: 30px;
+    margin-bottom: 10px;
+    width: 110%;
+}
+
+.p-1 h1{
+    font-size: 54px;
+}
+
+.p-5{
+    font-size: 18px;
+    font-weight: 800;
+    text-align: left;
+}
+
+.m-10{
+    margin: 40px;
+}
+
+.login {
+    border-radius: 2.3rem !important;
+    -webkit-box-shadow: -2px 9px 43px -6px rgba(0,0,0,0.55);
+    -moz-box-shadow: -2px 9px 43px -6px rgba(0,0,0,0.55);
+    box-shadow: -0px 9px 43px -6px rgba(0,0,0,0.55);
+
+}
+
+.Login-link {
+    color: #6d2771;
+    text-decoration: none !important;
+    font-weight: 800;
+}
+
+.Login-link-two{
+    color: #6d2771;
+    text-decoration: none !important;
+    font-weight: 800;
+    font-size: 15px !important;
+}
+
+
+.login-title {
+    font-weight: 700;
+    padding-bottom: 12px;
+}
+
+.login a:hover {
+    color: #6d2771 !important;
+}
+
+.nav-item {
+    margin: 16px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.login input{
+    font-size: 18px !important;
+}
+
+    .nav-item a {
+        color: white !important;
+        font-weight: 500 !important;
+    }
+
+.bg-purple {
+    background-color: #6d2771;
+}
+
+.btn-primary {
+    color: white !important;
+    background-color: #6d2771 !important;
+    padding: 24px;
+    font-size: 20px;
+    border: 2px solid #6d2771;
+    border-radius: 0.4rem !important;
+    width: 200px !important;
+    text-align:center;
+}
+
+.btn-Exit {
+    padding: 24px;
+    font-size: 20px;
+    border: 2px solid #6d2771;
+    border-radius: 0.4rem !important;
+}
+.btn-Exit:hover {
+ background-color: #6d2771 !important;
+ color: white;
+}
+
+
+.btn-primary:hover {
+        border: 2px solid #6d2771;
+        opacity: 0.8;
+}
+
+/* Styling for the Dashboard */
+
