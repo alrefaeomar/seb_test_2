@@ -1,0 +1,122 @@
+﻿
+@{
+    ViewBag.Title = "Housing Portal";
+}
+
+<section class="HousingSelection-page">
+    <form>
+        <div class="d-flex flex-lg-row  flex-md-column  flex-sm-column flex-xs-column m-10 justify-content-center align-content-center">
+            <div class="hSelection col bg-light justify-content-center align-content-center rounded-lg p-5">
+                <h1 class="title">Housing Selection Portal</h1>
+                <hr />
+
+                <div class="d-flex flex-lg-row flex-md-column flex-sm-column flex-xs-column justify-content-center align-content-center">
+                    <div class="col m-1 p-4">
+                        <h2>Student Information</h2>
+                        <hr />
+                        <div class="input-group input-group-md mb-3">
+                            <input type="text" placeholder="ID Number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                        </div>
+                        <div class="input-group input-group-md mb-3">
+                            <input type="text" placeholder="First Name" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                        </div>
+                        <div class="input-group input-group-md mb-3">
+                            <input type="text" placeholder="Last Name" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                        </div>
+                        <div class="input-group input-group-md mb-3">
+                            <input type="text" placeholder="School Email (user@moval.edu)" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                        </div>
+                        <div class="input-group">
+                            <textarea class="form-control" placeholder="Please include any additional notes if you have any:"></textarea>
+                        </div>
+                         <h2 class="mt-4">Housing Information</h2>
+                        <hr />
+                        <label class="m-2">Preferred Residence Hall:</label><br />
+                        <select class="custom-select custom-select-lg">
+                            <option>None</option>
+                            <option>0</option>
+                            <option>1</option>
+                            <option>2</option>
+                        </select>
+                    </div>
+                    <div class="col m-0 p-4">
+                        <h2>Roommate Preferences</h2>
+                        <hr />
+                        <label class="m-2">Preferred Roommate #1:</label><br />
+                        <select class="custom-select custom-select-lg">
+                            <option>None</option>
+                            <option>0</option>
+                            <option>1</option>
+                            <option>2</option>
+                        </select>
+                        <label class="m-2">Preferred Roommate #2:</label><br />
+                        <select class="custom-select custom-select-lg">
+                            <option>None</option>
+                            <option>0</option>
+                            <option>1</option>
+                            <option>2</option>
+                        </select>
+                        <label class="m-2">Preferred Roommate #3:</label><br />
+                        <select class="custom-select custom-select-lg">
+                            <option>None</option>
+                            <option>0</option>
+                            <option>1</option>
+                            <option>2</option>
+                        </select>
+                        <label class="m-2">Preferred Roommate #4:</label><br />
+                        <select class="custom-select custom-select-lg">
+                            <option>None</option>
+                            <option>0</option>
+                            <option>1</option>
+                            <option>2</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-1 mt-4 text-center"><button type="button" class="btn btn-primary text-center mr-4 mb-4">Submit<i class="fas text-center ml-3 fa-sign-in-alt"></i></button></div>
+    </form>
+
+    <div class="p-1 text-center">
+        <button data-toggle="modal" data-target="#Instructions-modal" class="btn btn-primary mr-4 mb-4">Instructions<i class="fas text-center ml-3 fa-angle-up"></i></button>
+    </div>
+    <div class="modal fade in" id="Instructions-modal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Instructions</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-justify">
+                        The priority of housing, is as follows:
+                        <br />
+                        <br />
+                        1st: Honor's Program Students<br />
+                        2nd: Seniors<br />
+                        3rd: Juniors<br />
+                        4th: Sophomores<br />
+                        5th: Freshman<br />
+                        <br />
+                        Please be already familiar with who you want to live with and communicate that to them prior to filling this form! Please also have several options on where you want to live as spaces fill up very quickly.
+                        <br /><br />
+                        If a building, apartment, room, etc is not listed that means it has already filled for the Fall 2021 semester!
+                        <br /><br />
+                        As always, to be eligible to select your housing you must have completed a housing contract for the 2020-2021 school year, which is available on the Missouri Valley Website.
+                        <br /><br />
+                        For Valley/Viking Village apartments, all occupants must have a 2.5 GPA at the time of selection.
+                        <br /><br />
+                        Your email address will be recorded when you submit this form.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-Exit" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
