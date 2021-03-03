@@ -9,7 +9,6 @@
             <div class="hSelection col bg-light justify-content-center align-content-center rounded-lg p-5">
                 <h1 class="title">Housing Selection Portal</h1>
                 <hr />
-
                 <div class="d-flex flex-lg-row flex-md-column flex-sm-column flex-xs-column justify-content-center align-content-center">
                     <div class="col m-1 p-4">
                         <h2>Student Information</h2>
@@ -29,7 +28,7 @@
                         <div class="input-group">
                             <textarea class="form-control" placeholder="Please include any additional notes if you have any:"></textarea>
                         </div>
-                         <h2 class="mt-4">Housing Information</h2>
+                        <h2 class="mt-4">Housing Information</h2>
                         <hr />
                         <label class="m-2">Preferred Residence Hall:</label><br />
                         <select class="custom-select custom-select-lg">
@@ -74,8 +73,7 @@
                 </div>
             </div>
         </div>
-
-        <div class="p-1 mt-4 text-center"><button type="button" class="btn btn-primary text-center mr-4 mb-4">Submit<i class="fas text-center ml-3 fa-sign-in-alt"></i></button></div>
+        <div class="p-1 mt-4 text-center"><button type="button" onclick="window.location='@Url.Action("Confirmation", "HousingSelect")'" class="btn btn-primary text-center mr-4 mb-4">Continue<i class="fas text-center ml-3 fa-arrow-circle-right"></i></button></div>
     </form>
 
     <div class="p-1 text-center">

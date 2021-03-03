@@ -13,5 +13,9 @@ namespace Check.Views
         {
             return View();
         }
+        public ActionResult Confirmation()
+        {
+            return View();
+        }
     }
 }

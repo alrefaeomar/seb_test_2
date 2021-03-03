@@ -4,7 +4,7 @@
 }
 <section class="SignUp-page">
     <div class="p-1 text-center">
-        <img class="shadow-lg rounded-lg" src="~/Content/Assets/MVC-Missouri-Valley-Logo-MO-Val-1000-563.png" />
+        <img class="w-75 shadow-lg rounded-lg" src="~/Content/Assets/MVC-Missouri-Valley-Logo-MO-Val-1000-563.png" />
     </div>
     <div class="d-flex flex-lg-row  flex-md-column  flex-sm-column flex-xs-column m-10 justify-content-center align-content-center">
      
@@ -18,11 +18,11 @@
                 <h4 class="link"><span>@Html.ActionLink("Go back to the Login", "Index", "Login")</span></h4>
                 <hr />
 
-                <div class="input-group input-group-sm mb-3">
+                <div class="input-group input-group-md mb-3">
                     <input type="text" placeholder="Student ID" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
                 </div>
 
-                <div class="input-group input-group-sm mb-3">
+                <div class="input-group input-group-md mb-3">
                     <input type="text" placeholder="Student Email" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
                 </div>            
                 <br />
@@ -35,7 +35,7 @@
                 <button data-toggle="modal" data-target="#Instructions-modal" class="btn btn-primary mr-4 mb-4">Instructions<i class="fas text-center ml-3 fa-angle-up"></i></button>
             </div>
 
-            <div class="modal fade in" id="Instructions-modal" tabindex="-1">
+            <div class="modal hide fade in" id="Instructions-modal" tabindex="-1">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">

@@ -1,0 +1,82 @@
+﻿
+@{
+    ViewBag.Title = "Housing Confirmation";
+}
+
+<section class="HousingSelection-page">
+    <form>
+        <div class="d-flex flex-lg-row  flex-md-column  flex-sm-column flex-xs-column m-10 justify-content-center align-content-center">
+            <div class="hSelection col bg-light justify-content-center align-content-center rounded-lg p-5">
+                <h1 class="title">Housing Selection Confirmation</h1>
+                <hr />
+
+                <div class="d-flex flex-lg-row flex-md-column flex-sm-column flex-xs-column justify-content-center align-content-center">
+                    <div class="col m-1 p-4">
+                        <h2>Student Information</h2>
+                        <hr />
+                        <div class="input-group input-group-md mb-3">
+                            <input type="text" placeholder="ID Number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" disabled>
+                        </div>
+                        <div class="input-group input-group-md mb-3">
+                            <input type="text" placeholder="First Name" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" disabled>
+                        </div>
+                        <div class="input-group input-group-md mb-3">
+                            <input type="text" placeholder="Last Name" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" disabled>
+                        </div>
+                        <div class="input-group input-group-md mb-3">
+                            <input type="text" placeholder="School Email (user@moval.edu)" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" disabled>
+                        </div>
+                        <div class="input-group">
+                            <textarea class="form-control" placeholder="Please include any additional notes if you have any:" disabled></textarea>
+                        </div>
+                        <h2 class="mt-4">Housing Information</h2>
+                        <hr />
+                        <label class="m-2">Preferred Residence Hall:</label><br />
+                        <select class="custom-select custom-select-lg" disabled>
+                            <option>None</option>
+                            <option>0</option>
+                            <option>1</option>
+                            <option>2</option>
+                        </select>
+                    </div>
+                    <div class="col m-0 p-4">
+                        <h2>Roommate Preferences</h2>
+                        <hr />
+                        <label class="m-2">Preferred Roommate #1:</label><br />
+                        <select class="custom-select custom-select-lg" disabled>
+                            <option>None</option>
+                            <option>0</option>
+                            <option>1</option>
+                            <option>2</option>
+                        </select>
+                        <label class="m-2">Preferred Roommate #2:</label><br />
+                        <select class="custom-select custom-select-lg" disabled>
+                            <option>None</option>
+                            <option>0</option>
+                            <option>1</option>
+                            <option>2</option>
+                        </select>
+                        <label class="m-2">Preferred Roommate #3:</label><br />
+                        <select class="custom-select custom-select-lg" disabled>
+                            <option>None</option>
+                            <option>0</option>
+                            <option>1</option>
+                            <option>2</option>
+                        </select>
+                        <label class="m-2">Preferred Roommate #4:</label><br />
+                        <select class="custom-select custom-select-lg" disabled>
+                            <option>None</option>
+                            <option>0</option>
+                            <option>1</option>
+                            <option>2</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-1 mt-1 text-center"><button type="button" class="btn btn-primary text-center mr-4 mb-1">Submit<i class="fas text-center ml-3 fa-sign-in-alt"></i></button></div>
+        <div class="p-1 mt-1 text-center"><button type="button" onclick="window.location='@Url.Action("Index", "HousingSelect")'" class="btn btn-primary text-center mr-4 mb-1">Go Back<i class="fas text-center ml-3 fa-arrow-circle-left"></i></button></div>
+    </form>
+</section>
+

@@ -1,9 +1,9 @@
 ﻿
 window.sr = ScrollReveal();
 sr.reveal('.modal', {
-    duration: 3000,
+    duration: 2000,
     origin: 'top',
-    distance: '-100px'
+    distance: '-100px',
 });
 
 
@@ -13,11 +13,4 @@ sr.reveal('.hSelection', {
     duration: 3000,
     origin: 'bottom',
     distance: '-100px'
-});
-
-window.sr = ScrollReveal();
-sr.reveal('.p-1', {
-    duration: 3000,
-    origin: 'top',
-    distance: '-50px'
 });

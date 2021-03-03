@@ -1,4 +1,14 @@
 ﻿
+@media screen and (max-width: 1078px) {
+    .login {
+        height: 1000px !important;
+    }
+    .Logo-mvc{
+        width: 90% !important;
+    }
+}
+
+
 @media screen and (max-width:768px) {
     .login {
         height: 1000px !important;
