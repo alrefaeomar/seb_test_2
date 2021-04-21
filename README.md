@@ -1,5 +1,5 @@
-# Check In App Missouri Valley College
-![Screenshot1](https://github.com/alrefaeomar/MOVAL_publicIntern/blob/main/Screenshots/Screenshot%202021-03-29%20103145.jpg)
+# Housing Selection App Missouri Valley College
+![Screenshot1](https://github.com/alrefaeomar/seb_test_2/blob/master/Screenshots/Screenshot%2001.jpg)
 
 ## Table of Contents
 * [Introduction](#introduction) 
@@ -13,7 +13,7 @@
 
 
 ## Introduction
-Since we are facing a pandemic right now, the need of a contactless measurement is a must. Thus, a good measurement for this is to have a Web application where Student can access their information and check what academic papers they need prior to attend to the institution. 
+Since we are facing a pandemic right now, the need of a contactless measurement is a must. Thus, a good measurement for this is to have a Web application where Students can apply of their housing. 
 
 ## Technologies Used
 * HTML
@@ -29,7 +29,7 @@ Since we are facing a pandemic right now, the need of a contactless measurement 
 ### Prequisites
 The first action needed to use this application is to clone it, by using:
 ```
-$ git clone https://github.com/alrefaeomar/MOVAL_publicIntern
+$ git clone https://github.com/alrefaeomar/seb_test_2
 ```
 
 Then, Visual Studio (preferably Visual Studio 2017) will be needed in order to modify or alter the components inside the application, such as the Controllers, Layout, etc.
