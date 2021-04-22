@@ -50,7 +50,7 @@ Then, the modals used to display instructions in the different pages were also c
 
 Also, Font Awesome icons were imported in the **Layout.cshtml** ``<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />``
 
-Therefore, in the following piece of code we can see the toggler, the target modal and then the **<i><i/>** where a Font Awesome is imported.
+Therefore, in the following piece of code we can see the toggler, the target modal and then the **<i><i/>** where a Font Awesome Icon is imported.
 ```
 <button data-toggle="modal" data-target="#Instructions-modal" class="btn btn-primary mr-4 mb-4">Instructions<i class="fas text-center ml-3 fa-angle-up"></i></button>
 ```
