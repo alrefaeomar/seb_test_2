@@ -5,7 +5,6 @@
 * [Introduction](#introduction) 
 * [Technologies Used](#technologies-used)
 * [Instructions](#instructions)
-  * [Prequisites](#prequisites)
   * [Installation](#installation)
 * [Usage](#usage)
 * [Technical Documentation](#technical-documentation)
